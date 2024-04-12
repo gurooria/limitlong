@@ -1,0 +1,33 @@
+.mission{
+    margin: 100px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+}
+.mission-left{
+    flex-basis: 50%;
+}
+.mission-right{
+    flex-basis: 43%;
+}
+.mission-img{
+    width: 100%;
+    border-radius: 0px;
+}
+.mission-right h2{
+    font-size: 27px;
+    font-weight: 550;
+    color: #4454eb;
+    text-transform: none;
+}
+.mission-right p{
+    font-size: 17px;
+    color: #000F38;
+    margin: 20px 0;
+}
+.read-more {
+    font-size: 17px;
+    color: #0066cc; /* This styles the "Read more" link */
+    text-decoration: underline;
+  }

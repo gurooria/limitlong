@@ -1,0 +1,56 @@
+.positions{
+    margin: 50px auto;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.position{
+    width: 20%;
+}
+.position hr{
+    margin-top: 10px; /* Adds space above the horizontal line */
+    border: 0;
+    height: 1px;
+    background-color: #000; /* Line color */
+    width: 100%; /* Line width relative to its container */
+    margin-left: auto; /* Centers the line horizontally */
+    margin-right: auto; /* Centers the line horizontally */
+}
+.position h1{
+    font-size: 27px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.position h2{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.position p{
+    font-size: 17px;
+}
+.learn-more{
+    background: #FFF;
+    color: #212121;
+    padding: 15px 27px;
+    font-size: 17px;
+    height: 90px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+}
+.learn-more h1{
+    font-size: 20px;
+    font-weight: 500;
+}
+.learn-more img{
+    width: 20px;
+    margin-left: 10px;
+}
+.learn-more:hover {
+    background-color: #FFF; /* Changes background color on hover */
+    color: #4454eb; /* Changes text color on hover */
+    border-color: #4454eb; /* Changes border color on hover */
+  }
