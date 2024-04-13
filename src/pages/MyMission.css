@@ -19,7 +19,7 @@
     flex-basis: 55%;
 }
 .my-mission-right p{
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.5;
     color: #333;
     margin-bottom: 30px;
@@ -38,6 +38,6 @@
         margin-top: 40px;
     }
     .my-mission-right p{
-        font-size: 18px;
+        font-size: 16px;
     }
 }
