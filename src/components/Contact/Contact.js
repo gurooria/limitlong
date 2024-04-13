@@ -11,7 +11,9 @@ const Contact = () => {
             <img src={vincent} alt=''/>
             <p>Feel free to shoot me a message through the form, or connect with me on LinkedIn!</p>
             <ul>
-                <li><img src={linkedin} alt=''/></li>
+                <a href='https://www.linkedin.com/in/vincent-vis-6a8a8217/'>
+                    <li><img src={linkedin} alt=''/></li>
+                </a>
             </ul>
         </div>
         <div className='contact-col'>
