@@ -7,6 +7,7 @@ import Mission from './components/Mission/Mission'
 import Positions from './components/Positions/Positions'
 import Testimonials from './components/Testimonials/Testimonials'
 import Contact from './components/Contact/Contact'
+import Footer from './components/Footer/Footer'
 
 const App = () => {
   return (
@@ -22,6 +23,7 @@ const App = () => {
         <Title title='Testimonials'/>
         <Testimonials/>
         <Contact/>
+        <Footer/>
       </div>
 
     </div>

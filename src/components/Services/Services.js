@@ -8,15 +8,15 @@ const Services = () => {
   return (
     <div className='services'>
       <div className='service'>
-        <img src={program} alt=''/>
-        <div className='caption'>
-            <p>Program Format</p>
-        </div>
-      </div>
-      <div className='service'>
         <img src={webinar} alt=''/>
         <div className='caption'>
             <p>Webinars</p>
+        </div>
+      </div>
+      <div className='service'>
+        <img src={program} alt=''/>
+        <div className='caption'>
+            <p>Program Format</p>
         </div>
       </div>
       <div className='service'>

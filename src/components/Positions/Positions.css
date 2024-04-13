@@ -36,8 +36,7 @@
     background: #FFF;
     color: #000F38;
     padding: 15px 27px;
-    font-size: 18px;
-    height: 90px;
+    height: 80px;
     cursor: pointer;
     display: inline-flex;
     align-items: center;
@@ -45,7 +44,7 @@
     border: 2px solid #000F38;
 }
 .learn-more h1{
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500;
 }
 .learn-more img{
@@ -57,3 +56,27 @@
     color: #4454eb; /* Changes text color on hover */
     border-color: #4454eb; /* Changes border color on hover */
   }
+
+  /* media queries */
+    @media (max-width: 1000px){
+        .positions{
+            flex-wrap: wrap;
+        }
+        .position{
+            width: 48%;
+            margin-bottom: 25px;
+        }
+        .position h1{
+            font-size: 23px;
+        }
+        .position h2 p{
+            font-size: 16px;
+        }
+        .learn-more h1{
+            font-size: 18px;
+        }
+        .position hr{
+            width: 97%;
+
+        }
+    }

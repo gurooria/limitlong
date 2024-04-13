@@ -32,3 +32,24 @@
     color: #0066cc; /* This styles the "Read more" link */
     text-decoration: underline;
   }
+
+  /* media queries */
+  @media (max-width: 1000px){
+    .mission{
+        flex-direction: column;
+    }
+    .mission-left{
+        margin-top: 40px;
+        flex-basis: 100%;
+        order: 2;
+    }
+    .mission-right{
+        flex-basis: 100%;
+    }
+    .mission-right h2{
+        font-size: 25px;
+    }
+    .mission-right p{
+        font-size: 18px;
+    }
+  }
