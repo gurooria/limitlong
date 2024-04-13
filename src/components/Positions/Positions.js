@@ -1,5 +1,6 @@
 import React from 'react'
 import './Positions.css'
+import { Link } from 'react-router-dom'
 
 const Positions = () => {
   return (
@@ -22,9 +23,11 @@ const Positions = () => {
         <p>Trader & In-house Trainer</p>
         <hr/>
       </div>
-      <div className='learn-more'>
-        <h1>Learn More →</h1>
-      </div>
+      <Link to='/about-me'>
+        <div className='learn-more'>
+          <h1>Learn More →</h1>
+        </div>
+      </Link>
     </div>
   )
 }

@@ -1,0 +1,43 @@
+.my-mission{
+    padding-top: 50px; /* Adjust as needed */
+  }
+.my-mission-container{
+    margin: 70px auto 60px;
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
+    width: 90%;
+}
+.my-mission-left{
+    flex-basis: 38%;
+}
+.my-mission-left img{
+    width: 100%;
+    border-radius: 0px;
+}
+.my-mission-right{
+    flex-basis: 55%;
+}
+.my-mission-right p{
+    font-size: 18px;
+    line-height: 1.5;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+/* media queries */
+@media (max-width: 1000px){
+    .my-mission-container{
+        flex-direction: column;
+        margin-bottom: -20px;
+    }
+    .my-mission-left{
+        display: none;
+    }
+    .my-mission-container{
+        margin-top: 40px;
+    }
+    .my-mission-right p{
+        font-size: 18px;
+    }
+}

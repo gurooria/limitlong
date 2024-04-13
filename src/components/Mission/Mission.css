@@ -22,10 +22,12 @@
     text-transform: none;
 }
 .mission-right p{
+    margin-top: 25px;
     font-size: 18px;
-    color: #000F38;
-    margin: 20px 0;
+    color: #333;
     line-height: 1.5;
+    text-align: justify;
+    margin-bottom: 20px;
 }
 .read-more {
     font-size: 18px;
@@ -47,9 +49,10 @@
         flex-basis: 100%;
     }
     .mission-right h2{
-        font-size: 25px;
+        font-size: 27px;
     }
     .mission-right p{
+        margin-top: 30px;
         font-size: 18px;
     }
   }

@@ -29,6 +29,7 @@
     font-size: 18px;
     max-width: 300px;
     list-style: 0.3;
+    color: #fff;
 }
 .contact-col ul li{
     display: flex;

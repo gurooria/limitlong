@@ -47,6 +47,7 @@
 @media (max-width: 650px){
     .services{
         flex-direction: column;
+        margin-top: 10px;
     }
     .service{
         flex-basis: 100%;
