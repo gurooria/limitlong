@@ -1,6 +1,5 @@
 import React from 'react'
 import './Positions.css'
-import dark_arrow from '../../assets/dark-arrow.png'
 
 const Positions = () => {
   return (

@@ -1,5 +1,5 @@
 .mission{
-    margin: 100px auto;
+    margin: 100px auto 0px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -22,12 +22,13 @@
     text-transform: none;
 }
 .mission-right p{
-    font-size: 17px;
+    font-size: 18px;
     color: #000F38;
     margin: 20px 0;
+    line-height: 1.5;
 }
 .read-more {
-    font-size: 17px;
+    font-size: 18px;
     color: #0066cc; /* This styles the "Read more" link */
     text-decoration: underline;
   }

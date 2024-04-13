@@ -19,7 +19,7 @@ const Mission = () => {
             require any background in finance and accessible without a strong mathematical background. 
             Still it would be surprisingly new to the majority of any audience.
         </p>
-        <a href="url-to-read-more" class="read-more">Read more...</a>
+        <a href="" class="read-more">Read more...</a>
       </div>
     </div>
   )
