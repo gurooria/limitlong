@@ -1,0 +1,16 @@
+{
+	"linter": {
+		"rules": {
+			"suspicious": {
+				"noDebugger": "off",
+				"noConsoleLog": "info"
+			},
+			"a11y": {
+				"useKeyWithClickEvents": "off"
+			},
+			"style": {
+				"noShoutyConstants": "warn"
+			}
+		}
+	}
+}

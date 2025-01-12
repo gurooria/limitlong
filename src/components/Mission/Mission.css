@@ -1,59 +1,59 @@
-.mission{
-    margin: 80px auto 0px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 90%;
+.mission {
+	margin: 80px auto 0px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 90%;
 }
-.mission-left{
-    flex-basis: 50%;
+.mission-left {
+	flex-basis: 50%;
 }
-.mission-right{
-    flex-basis: 43%;
+.mission-right {
+	flex-basis: 43%;
 }
-.mission-img{
-    width: 100%;
-    border-radius: 0px;
+.mission-img {
+	width: 100%;
+	border-radius: 0px;
 }
-.mission-right h2{
-    font-size: 27px;
-    font-weight: 550;
-    color: #4454eb;
-    text-transform: none;
+.mission-right h2 {
+	font-size: 27px;
+	font-weight: 550;
+	color: #4454eb;
+	text-transform: none;
 }
-.mission-right p{
-    margin-top: 25px;
-    font-size: 16px;
-    color: #333;
-    line-height: 1.5;
-    text-align: justify;
-    margin-bottom: 20px;
+.mission-right p {
+	margin-top: 25px;
+	font-size: 16px;
+	color: #333;
+	line-height: 1.5;
+	text-align: justify;
+	margin-bottom: 20px;
 }
 .read-more {
-    font-size: 16px;
-    color: #0066cc; /* This styles the "Read more" link */
-    text-decoration: underline;
-  }
+	font-size: 16px;
+	color: #0066cc; /* This styles the "Read more" link */
+	text-decoration: underline;
+}
 
-  /* media queries */
-  @media (max-width: 1000px){
-    .mission{
-        flex-direction: column;
-        margin-top: 60px;
-    }
-    .mission-left{
-        margin-top: 40px;
-        flex-basis: 100%;
-        order: 2;
-    }
-    .mission-right{
-        flex-basis: 100%;
-    }
-    .mission-right h2{
-        font-size: 27px;
-    }
-    .mission-right p{
-        margin-top: 30px;
-        font-size: 16px;
-    }
-  }
+/* media queries */
+@media (max-width: 1000px) {
+	.mission {
+		flex-direction: column;
+		margin-top: 60px;
+	}
+	.mission-left {
+		margin-top: 40px;
+		flex-basis: 100%;
+		order: 2;
+	}
+	.mission-right {
+		flex-basis: 100%;
+	}
+	.mission-right h2 {
+		font-size: 27px;
+	}
+	.mission-right p {
+		margin-top: 30px;
+		font-size: 16px;
+	}
+}

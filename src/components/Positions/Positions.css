@@ -1,84 +1,83 @@
-.positions{
-    margin: 70px auto;
-    margin-bottom: 90px;
-    width: 90%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.positions {
+	margin: 70px auto;
+	margin-bottom: 90px;
+	width: 90%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 }
-.position{
-    width: 20%;
+.position {
+	width: 20%;
 }
-.position hr{
-    margin-top: 10px; /* Adds space above the horizontal line */
-    border: 0;
-    height: 1.5px;
-    background-color: #333; /* Line color */
-    width: 100%; /* Line width relative to its container */
-    margin-left: auto; /* Centers the line horizontally */
-    margin-right: auto; /* Centers the line horizontally */
+.position hr {
+	margin-top: 10px; /* Adds space above the horizontal line */
+	border: 0;
+	height: 1.5px;
+	background-color: #333; /* Line color */
+	width: 100%; /* Line width relative to its container */
+	margin-left: auto; /* Centers the line horizontally */
+	margin-right: auto; /* Centers the line horizontally */
 }
-.position h1{
-    color: #333;
-    font-size: 27px;
-    text-transform: uppercase;
-    margin-bottom: 10px;
+.position h1 {
+	color: #333;
+	font-size: 27px;
+	text-transform: uppercase;
+	margin-bottom: 10px;
 }
-.position h2{
-    color: #333;
-    font-size: 18px;
-    margin-bottom: 10px;
+.position h2 {
+	color: #333;
+	font-size: 18px;
+	margin-bottom: 10px;
 }
-.position p{
-    color: #333;
-    font-size: 18px;
+.position p {
+	color: #333;
+	font-size: 18px;
 }
-.learn-more{
-    background: #FFF;
-    color: #333;
-    padding: 15px 27px;
-    height: 80px;
-    cursor: pointer;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    border: 2px solid #333;
+.learn-more {
+	background: #fff;
+	color: #333;
+	padding: 15px 27px;
+	height: 80px;
+	cursor: pointer;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	border: 2px solid #333;
 }
-.learn-more h1{
-    font-size: 18px;
-    font-weight: 500;
+.learn-more h1 {
+	font-size: 18px;
+	font-weight: 500;
 }
-.learn-more img{
-    width: 20px;
-    margin-left: 10px;
+.learn-more img {
+	width: 20px;
+	margin-left: 10px;
 }
 .learn-more:hover {
-    background-color: #FFF; /* Changes background color on hover */
-    color: #4454eb; /* Changes text color on hover */
-    border-color: #4454eb; /* Changes border color on hover */
-  }
+	background-color: #fff; /* Changes background color on hover */
+	color: #4454eb; /* Changes text color on hover */
+	border-color: #4454eb; /* Changes border color on hover */
+}
 
-  /* media queries */
-    @media (max-width: 1000px){
-        .positions{
-            flex-wrap: wrap;
-            margin-bottom: 70px;
-        }
-        .position{
-            width: 48%;
-            margin-bottom: 25px;
-        }
-        .position h1{
-            font-size: 23px;
-        }
-        .position h2 p{
-            font-size: 16px;
-        }
-        .learn-more h1{
-            font-size: 18px;
-        }
-        .position hr{
-            width: 85%;
-
-        }
-    }
+/* media queries */
+@media (max-width: 1000px) {
+	.positions {
+		flex-wrap: wrap;
+		margin-bottom: 70px;
+	}
+	.position {
+		width: 48%;
+		margin-bottom: 25px;
+	}
+	.position h1 {
+		font-size: 23px;
+	}
+	.position h2 p {
+		font-size: 16px;
+	}
+	.learn-more h1 {
+		font-size: 18px;
+	}
+	.position hr {
+		width: 85%;
+	}
+}
