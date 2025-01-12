@@ -18,7 +18,7 @@ const Hero = () => {
 					for professionals and private clients.
 				</p>
 				<Link to="/my-mission" className="btn-white">
-					Learn More
+					Learn more
 					<img src={dark_arrow} alt="" />
 				</Link>
 			</div>

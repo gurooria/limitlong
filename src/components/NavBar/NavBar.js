@@ -16,34 +16,37 @@ const NavBar = () => {
 					<img src={logo} alt="" className="logo" />
 				</Link>
 				<Link to="/">
-					<div className="logo-text">LIMIT LONG</div>
+					<div className="logo-text">LIMITLONG</div>
 				</Link>
 			</div>
 			<ul className={mobileMenu ? "" : "hide-mobile-menu"}>
 				<li>
-					<Link to="my-mission">My Mission</Link>
+					<Link to="my-mission" className="menu-btn">
+						My Mission
+					</Link>
 				</li>
 				<li>
-					<Link to="services">Services</Link>
+					<Link to="services" className="menu-btn">
+						Services
+					</Link>
 				</li>
 				<li>
-					<Link to="about-me">About Me</Link>
+					<Link to="about-me" className="menu-btn">
+						About Me
+					</Link>
 				</li>
 				<li>
-					<Link to="books">Books</Link>
+					<Link to="books" className="menu-btn">
+						Books
+					</Link>
 				</li>
 				<li>
-					<Link to="materials">Materials</Link>
+					<Link to="materials" className="menu-btn">
+						Materials
+					</Link>
 				</li>
 			</ul>
-			<button
-				type="button"
-				className="menu-icon"
-				onClick={toggleMenu}
-				onKeyDown={toggleMenu}
-			>
-				<img src={menu} alt="menu icon" />
-			</button>
+			<img src={menu} alt="" className="menu-icon" onClick={toggleMenu} />
 		</nav>
 	);
 };

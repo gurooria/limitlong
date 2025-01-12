@@ -1,14 +1,17 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import NavBar from "./components/NavBar/NavBar";
 import "./index.css";
+import reportWebVitals from "./reportWebVitals";
+
+// components & pages
+import NavBar from "./components/NavBar/NavBar";
 import App from "./pages/App";
 import MyMission from "./pages/MyMission";
 import AboutMe from "./pages/AboutMe";
 import Books from "./pages/Books";
-import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
+// render
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
 	<Router>
