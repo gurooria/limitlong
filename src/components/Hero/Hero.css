@@ -21,7 +21,6 @@
 	margin: 30px;
 }
 .hero-text p {
-	font-size: 20px;
 	line-height: 1.5;
 	margin: 0px 30px 60px 30px;
 }
@@ -33,9 +32,6 @@
 	.hero-text h1 {
 		font-size: 30px;
 	}
-	.hero-text p {
-		font-size: 18px;
-	}
 }
 @media (max-width: 650px) {
 	.hero-text {
@@ -43,8 +39,5 @@
 	}
 	.hero-text h1 {
 		font-size: 28px;
-	}
-	.hero-text p {
-		font-size: 18px;
 	}
 }

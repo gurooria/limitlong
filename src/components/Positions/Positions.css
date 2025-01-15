@@ -1,13 +1,15 @@
+.past-positions {
+	width: 100%;
+}
 .positions {
-	margin: 70px auto;
-	margin-bottom: 90px;
-	width: 90%;
+	margin-top: 60px;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 }
 .position {
-	width: 20%;
+	flex-basis: 25%;
+	color: #333;
 }
 .position hr {
 	margin-top: 10px; /* Adds space above the horizontal line */
@@ -15,22 +17,17 @@
 	height: 1.5px;
 	background-color: #333; /* Line color */
 	width: 100%; /* Line width relative to its container */
-	margin-left: auto; /* Centers the line horizontally */
-	margin-right: auto; /* Centers the line horizontally */
 }
 .position h1 {
-	color: #333;
 	font-size: 27px;
 	text-transform: uppercase;
 	margin-bottom: 10px;
 }
 .position h2 {
-	color: #333;
 	font-size: 18px;
 	margin-bottom: 10px;
 }
 .position p {
-	color: #333;
 	font-size: 18px;
 }
 .learn-more {
@@ -47,10 +44,6 @@
 .learn-more h1 {
 	font-size: 18px;
 	font-weight: 500;
-}
-.learn-more img {
-	width: 20px;
-	margin-left: 10px;
 }
 .learn-more:hover {
 	background-color: #fff; /* Changes background color on hover */

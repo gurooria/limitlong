@@ -1,16 +1,14 @@
 .contact {
-	padding-top: 60px;
-	padding-left: 10%;
-	padding-right: 10%;
-	padding-bottom: 15px;
-	margin: 80px auto;
-	max-width: 90%;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	padding: 4%;
+	width: 85%;
 	display: flex;
 	align-content: center;
-	justify-content: space-between;
+	justify-content: center;
 	background: #4454eb;
 	color: #fff;
-	font-size: 16px;
+	font-size: 18px;
 }
 .contact-col {
 	flex-basis: 48%;
@@ -24,17 +22,18 @@
 .contact-col img {
 	width: 300px;
 	margin-bottom: 20px;
+	border-radius: 10px;
 }
 .contact-col p {
 	font-size: 16px;
 	max-width: 300px;
 	list-style: 0.3;
 	color: #fff;
+	margin-bottom: 10px;
 }
 .contact-col ul li {
 	display: flex;
 	align-items: center;
-	margin: 20px 0;
 }
 .contact-col ul li img {
 	width: 50px;
@@ -45,7 +44,7 @@
 	font-weight: 500;
 	padding: 13px 40px;
 	margin-top: 10px;
-	font-size: 16px;
+	font-size: 18px;
 	border-radius: 0px;
 	cursor: pointer;
 	border: 0;

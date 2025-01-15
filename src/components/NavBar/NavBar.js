@@ -10,7 +10,7 @@ const NavBar = () => {
 		mobileMenu ? setMobileMenu(false) : setMobileMenu(true);
 	};
 	return (
-		<nav className="container">
+		<nav>
 			<div className="logo-container">
 				<Link to="/">
 					<img src={logo} alt="" className="logo" />

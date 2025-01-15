@@ -11,6 +11,8 @@ nav {
 	align-items: center;
 	justify-content: space-between;
 	z-index: 10;
+	padding-left: 5%;
+	padding-right: 5%;
 }
 nav ul li {
 	display: inline-block;
@@ -40,7 +42,6 @@ nav ul li {
 @media (max-width: 1000px) {
 	nav ul li {
 		margin: 5px 15px;
-		font-size: 18px;
 	}
 }
 @media (max-width: 840px) {

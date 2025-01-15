@@ -12,13 +12,10 @@ const App = () => {
 	return (
 		<div>
 			<Hero />
-			<div className="container">
-				<Title title="Services" />
+			<div className="home">
 				<Services />
 				<Mission />
-				<Title title="Past Positions" />
 				<Positions />
-				<Title title="Testimonials" />
 				<Testimonials />
 				<Contact />
 				<Footer />
