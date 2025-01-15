@@ -1,8 +1,8 @@
 .contact {
-	margin-top: 50px;
+	margin-top: 60px;
 	margin-bottom: 50px;
-	padding: 4%;
-	width: 85%;
+	padding: 4% 15% 4% 15%;
+	width: 100%;
 	display: flex;
 	align-content: center;
 	justify-content: center;
